@@ -15,7 +15,7 @@ public class Commision extends User implements Meni
     // -------------ATTRIBUTES---------------
 
     private static Commision instanca;
-    private Scanner scan = new Scanner(System.in);
+    private Scanner scan;
 
     // --------------METHODS-----------------
 
@@ -42,6 +42,7 @@ public class Commision extends User implements Meni
     public void glavniMeni()
     {
         String odluka;
+        scan = new Scanner(System.in)
         while (instanca!=null)
         {
             System.out.println("*****************************");
