@@ -14,7 +14,7 @@ public class Competitor extends User implements Meni
     // ---------------ATTRIBUTES----------------
 
     private static Competitor instanca;
-    private Scanner scan = new Scanner(System.in);
+    private Scanner scan;
 
     // ---------------METHODS------------------
 
@@ -32,6 +32,7 @@ public class Competitor extends User implements Meni
     public void glavniMeni()
     {
         String odluka;
+        scan = new Scanner(System.in)
         while(instanca!=null)
         {
             System.out.println("*******************************************");
